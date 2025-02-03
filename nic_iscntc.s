@@ -1,0 +1,9 @@
+ISCNTC:
+    LDA KBDCR
+    BPL NOT_CC
+    JSR MONRDKEY
+    CMP #$3
+    BEQ IS_CC
+NOT_CC:
+    RTS
+IS_CC:
