@@ -25,7 +25,7 @@ AIM65 := 1
 .elseif .def(sym1)
 SYM1 := 1
 .include "defines_sym1.s"
-.elseif .def(sym1)
+.elseif .def(nic)
 NIC := 1
 .include "defines_nic.s"
 .endif

@@ -57,6 +57,7 @@
 .ifdef CONFIG_FILE
 		keyword_rts "PRINT#", PRINTH
 .endif
+		keyword_rts "SYS", SYS
 		keyword_rts "PRINT", PRINT, TOKEN_PRINT
 		keyword_rts "CONT", CONT
 		keyword_rts "LIST", LIST
