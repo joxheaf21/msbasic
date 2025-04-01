@@ -80,6 +80,13 @@
 .endif
 		keyword_rts "NEW", NEW
 
+.ifdef NIC
+		keyword_rts "MON", MON
+		keyword_rts "SYS", SYS
+		keyword_rts "TCHR", TERMCHR
+		keyword_rts "TSTR", TERMSTR
+.endif
+
 		count_tokens
 
 		keyword	"TAB(", TOKEN_TAB

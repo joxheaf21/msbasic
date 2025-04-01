@@ -1,0 +1,7 @@
+10 INPUT"WHAT IS YOUR NAME";A$
+20 PRINT"I will now print your name to a external device"
+30 FOR I=1TOLEN(A$):TCHR ASC(MID$(A$,I,1)):NEXT:TCHR 13
+
+
+10 INPUT"WHAT IS YOUR NAME";A$
+20 TSTR A$
